@@ -1,0 +1,14 @@
+names:
+  - Anthracnose
+  - algal leaf
+  - healthy
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: disease-in-tea-leaves
+  url: https://universe.roboflow.com/plti-svtod/disease-in-tea-leaves/dataset/4
+  version: 4
+  workspace: plti-svtod
+test: ../test/images
+train: /content/drive/MyDrive/Colab Notebooks/disease-in-tea-leaves-4/train/images
+val: /content/drive/MyDrive/Colab Notebooks/disease-in-tea-leaves-4/valid/images

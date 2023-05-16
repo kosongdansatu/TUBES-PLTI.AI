@@ -1,0 +1,18 @@
+path: ../content/drive/MyDrive/Colab Notebooks/disease-in-tea-leaves-3 # dataset root dir
+train: /content/drive/MyDrive/Colab Notebooks/disease-in-tea-leaves-3/train # train images (relative to 'path') 128 images
+val: /content/drive/MyDrive/Colab Notebooks/disease-in-tea-leaves-3/valid # val images (relative to 'path') 128 images
+test: /content/drive/MyDrive/Colab Notebooks/disease-in-tea-leaves-3/test # test images (optional)
+
+# Classes
+names:
+  0: Red leaf spot
+  1: Algal leaf spot
+  2: Bird’s eyespot
+  3: Gray blight
+  4: White spot
+  5: Anthracnose
+  6: Brown blight
+  7: Healthy
+
+# Download script/URL (optional)
+download: https://app.roboflow.com/ds/tjzWxgfc4s?key=Uytn2XToOH

@@ -1,0 +1,14 @@
+
+
+Untuk running di internal pc gunakan command ini
+
+$python3 detect.py --weights /Users/danusuma/opt/anaconda3/envs/PLTI-TUBES/runs/train/exp4/weights/last.pt --source 0
+
+Untuk running di internal pc  dab memunculkan hasil di browser gunakan command ini
+
+$python3 run_webstreaming.py
+
+Untuk menjalankan object detection di terminnal
+
+1. Pertama ubah directory root terminal ke dalam folder file yang ingin di running
+2. Lalu jalankan command berikut $python3 run_webstreaming.py
