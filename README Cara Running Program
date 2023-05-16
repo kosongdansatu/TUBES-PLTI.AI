@@ -2,7 +2,7 @@
 
 Untuk running di internal pc gunakan command ini
 
-$python3 detect.py --weights /Users/danusuma/opt/anaconda3/envs/PLTI-TUBES/runs/train/exp4/weights/last.pt --source 0
+$python3 detect2.py --weights /Users/danusuma/opt/anaconda3/envs/PLTI-TUBES/runs/train/exp6/weights/last.pt --conf 0.8 --source 0
 
 Untuk running di internal pc  dab memunculkan hasil di browser gunakan command ini
 
