@@ -1,14 +1,25 @@
 
+Hal yang perlu diperhatikan sebelum running program 
 
-Untuk running di internal pc gunakan command ini
 
-$python3 detect2.py --weights /Users/danusuma/opt/anaconda3/envs/PLTI-TUBES/runs/train/exp6/weights/last.pt --conf 0.8 --source 0
+1. Membuat folder enviroment python terlebih dahulu di anaconda dengan versi python harus 3.8
+2. Lalu setelah itu pip install -r requirements.txt
+3. Lalu Untuk running di internal pc menggunakan command ini camera laptop:
+	
+	python3 detect.py --weights /Users/danusuma/opt/anaconda3/envs/PLTI-TUBES/runs/train/exp6/	weights/last.pt --conf 0.7 --source 0
 
-Untuk running di internal pc  dab memunculkan hasil di browser gunakan command ini
 
-$python3 run_webstreaming.py
+4. Untuk running di internal pc  dab memunculkan hasil di browser gunakan command ini
 
-Untuk menjalankan object detection di terminnal
+	python3 run_webstreaming.py
 
-1. Pertama ubah directory root terminal ke dalam folder file yang ingin di running
-2. Lalu jalankan command berikut $python3 run_webstreaming.py
+Jika ingin mencoba melakukan running program dengan data banana yolo Bisa menggunakan comment berikut :
+
+python3 detect.py --weights yolov5s.pt --source 0
+
+Note : 
+
+1. Pastikan semua library Sudah terinstall dengan benar
+2. Pastikan sat running program sudah berada pada directory folder 
+3. Jika gagal running program perhatikan comment error di terminal and a
+
